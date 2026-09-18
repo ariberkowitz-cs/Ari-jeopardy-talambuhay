@@ -6,26 +6,26 @@ const sortQuestions = (questions: { points: number; question: string; answer: st
 const pastQuestions: Question[] = sortQuestions([
     {
         points: 100,
-        question: 'What US state is the Land of Lincoln?',
-        answer: 'Illinois',
+        question: 'What month was I born in?',
+        answer: 'April',
     },
     {
         points: 200,
         question:
-            'Which country\'s flag is this?',
+            'What instrument did I play as a kid?',
         imgSrc: "https://cdn.britannica.com/34/4034-050-91EE1BCF/Flag-Myanmar.jpg",
-        answer: 'Myanmar',
+        answer: 'piano',
     },
     {
         points: 300,
         question:
-            'What Ivy League school has the highest Native American enrollment (a whoppping 1%)?',
-        answer: 'Dartmouth',
+            'What was my favorite book as a kid?',
+        answer: 'Harry potter',
     },
     {
         points: 400,
-        question: 'Who wrote the Critique of Pure Reason?',
-        answer: 'Immanuel Kant',
+        question: 'Which state am I from?',
+        answer: 'Maryland',
     }
 ]);
 
