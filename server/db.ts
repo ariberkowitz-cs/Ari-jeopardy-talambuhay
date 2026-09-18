@@ -19,8 +19,8 @@ const pastQuestions: Question[] = sortQuestions([
     {
         points: 300,
         question:
-            'What was my favorite book as a kid?',
-        answer: 'Harry potter',
+            'Which country is this (Hint: Lord of the Rings)?',
+        answer: 'New Zealand',
     },
     {
         points: 400,
@@ -32,42 +32,63 @@ const pastQuestions: Question[] = sortQuestions([
 const presentQuestions: Question[] =
     sortQuestions([
         {
-            points: 400,
-            question:
-                'This is Donu, a character from which video game?',
-            imgSrc: '/donu-gif.gif',
-            answer: 'Slay the Spire',
-        },
-        {
             points: 100,
             question:
-                'Tahini is made from which seed?',
-            imgSrc: 'https://www.aforkstale.com/wp-content/uploads/how-to-make-homemade-tahini-1200-x-1200.jpg',
-            answer: 'Sesame',
+                'What school sports team do I play on?',
+            imgSrc: '/donu-gif.gif',
+            answer: 'soccer',
         },
         {
             points: 200,
-            question: 'What programming language is the below code?',
-            imgSrc: '/programming_language.png',
-            answer: 'Javascript',
+            question:
+                'What is my favorite class? (after CS of course)',
+            imgSrc: 'https://www.aforkstale.com/wp-content/uploads/how-to-make-homemade-tahini-1200-x-1200.jpg',
+            answer: 'History',
         },
         {
             points: 300,
+            question: 'What is my favorite day of the week?',
+            imgSrc: '/programming_language.png',
+            answer: 'Saturday',
+        },
+        {
+            points: 400,
             question:
-                'This country is home to the Dolomites, which are a mountain range that has historical \'via ferratas\', iron cables and rungs, to aid traversing the peaks?',
+                'Who is this?',
             imgSrc:
                 "https://laguidalpina.it/cdn/shop/products/ferrata-marmolada-cresta-ovest-Cristiano-Gregnanin-Guida-Alpina-Certificata-Dolomiti-5.jpg?v=1738870778",
-            answer: 'Italy',
+            answer: 'Magnus Carlsen',
         }
     ]);
 const futureQuestions: Question[] = sortQuestions([
     {
         points: 100,
         question:
-            'This type of 2D drawing allows you to see the sides of a 3D object at the same scale.',
+            'What year will I graduate?',
         imgSrc:
             "https://static.mathigon.org/cms/a8141a111490d026fa6578a4933d1d47.png",
-        answer: 'Isometric',
+        answer: '2028',
+    },
+    {
+        points: 200,
+        question:
+            'What instrument will I play this year in band?',
+        imgSrc: 'https://www.aforkstale.com/wp-content/uploads/how-to-make-homemade-tahini-1200-x-1200.jpg',
+        answer: 'saxophone',
+    },
+    {
+        points: 300,
+        question: 'Which programming language do I want to learn after Java?',
+        imgSrc: '/programming_language.png',
+        answer: 'c',
+    },
+    {
+        points: 400,
+        question:
+            'What language do I want to learn after spanish?',
+        imgSrc:
+            "https://laguidalpina.it/cdn/shop/products/ferrata-marmolada-cresta-ovest-Cristiano-Gregnanin-Guida-Alpina-Certificata-Dolomiti-5.jpg?v=1738870778",
+        answer: 'French',
     }
 ]);
 

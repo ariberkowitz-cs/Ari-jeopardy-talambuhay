@@ -1,0 +1,2 @@
+Why are the images stored in static? What does static even mean? 
+Why don't the images have a file path?
