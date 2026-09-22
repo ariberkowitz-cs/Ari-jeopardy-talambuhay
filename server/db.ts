@@ -35,20 +35,20 @@ const presentQuestions: Question[] =
             points: 100,
             question:
                 'What school sports team do I play on?',
-            imgSrc: '/donu-gif.gif',
+            imgSrc: '/soccerfield.png',
             answer: 'soccer',
         },
         {
             points: 200,
             question:
                 'What is my favorite class? (after CS of course)',
-            imgSrc: 'https://www.aforkstale.com/wp-content/uploads/how-to-make-homemade-tahini-1200-x-1200.jpg',
+            imgSrc: 'https://cdn.theatlantic.com/thumbor/vdmIsSsIP0jWO1PldrrXwYRU1Yo=/0x104:1102x724/720x405/media/img/mt/2015/03/RossBetsy_1/original.jpg',
             answer: 'History',
         },
         {
             points: 300,
             question: 'What is my favorite day of the week?',
-            imgSrc: '/programming_language.png',
+            imgSrc: '/snl.png',
             answer: 'Saturday',
         },
         {
@@ -56,7 +56,7 @@ const presentQuestions: Question[] =
             question:
                 'Who is this?',
             imgSrc:
-                "https://laguidalpina.it/cdn/shop/products/ferrata-marmolada-cresta-ovest-Cristiano-Gregnanin-Guida-Alpina-Certificata-Dolomiti-5.jpg?v=1738870778",
+                "https://www.regencychess.co.uk/blog/wp-content/uploads/Magnus-Carlsen-2.webp",
             answer: 'Magnus Carlsen',
         }
     ]);
