@@ -13,18 +13,20 @@ const pastQuestions: Question[] = sortQuestions([
         points: 200,
         question:
             'What instrument did I play as a kid?',
-        imgSrc: "https://cdn.britannica.com/34/4034-050-91EE1BCF/Flag-Myanmar.jpg",
+        imgSrc: "/beethoven.png", // beethoven picture
         answer: 'piano',
     },
     {
         points: 300,
         question:
             'Which country is this (Hint: Lord of the Rings)?',
+        imgSrc: "/newzealand.png", // new zealand picture
         answer: 'New Zealand',
     },
     {
         points: 400,
         question: 'Which state am I from?',
+        imgSrc: "https://stanforddaily.com/wp-content/uploads/2014/12/maryland-logo.jpg", // turtle picture
         answer: 'Maryland',
     }
 ]);
@@ -42,13 +44,13 @@ const presentQuestions: Question[] =
             points: 200,
             question:
                 'What is my favorite class? (after CS of course)',
-            imgSrc: 'https://cdn.theatlantic.com/thumbor/vdmIsSsIP0jWO1PldrrXwYRU1Yo=/0x104:1102x724/720x405/media/img/mt/2015/03/RossBetsy_1/original.jpg',
+            imgSrc: 'https://cdn.theatlantic.com/thumbor/vdmIsSsIP0jWO1PldrrXwYRU1Yo=/0x104:1102x724/720x405/media/img/mt/2015/03/RossBetsy_1/original.jpg', // us history picture
             answer: 'History',
         },
         {
             points: 300,
             question: 'What is my favorite day of the week?',
-            imgSrc: '/snl.png',
+            imgSrc: '/snl.png', // snl picture
             answer: 'Saturday',
         },
         {
@@ -56,7 +58,7 @@ const presentQuestions: Question[] =
             question:
                 'Who is this?',
             imgSrc:
-                "https://www.regencychess.co.uk/blog/wp-content/uploads/Magnus-Carlsen-2.webp",
+                "https://www.regencychess.co.uk/blog/wp-content/uploads/Magnus-Carlsen-2.webp", // magnus carlsen picture
             answer: 'Magnus Carlsen',
         }
     ]);
@@ -66,20 +68,20 @@ const futureQuestions: Question[] = sortQuestions([
         question:
             'What year will I graduate?',
         imgSrc:
-            "https://static.mathigon.org/cms/a8141a111490d026fa6578a4933d1d47.png",
+            "https://t4.ftcdn.net/jpg/12/78/66/47/360_F_1278664775_tW7QUm1nWdWvo8aMpWFVCrzUj075ZUcI.jpg", // graduation hat picture
         answer: '2028',
     },
     {
         points: 200,
         question:
             'What instrument will I play this year in band?',
-        imgSrc: 'https://www.aforkstale.com/wp-content/uploads/how-to-make-homemade-tahini-1200-x-1200.jpg',
+        imgSrc: 'https://t3.ftcdn.net/jpg/00/87/58/44/360_F_87584445_ZmgbO9P17348IFEU5sorviDx5n4HmL1C.jpg', // band picture
         answer: 'saxophone',
     },
     {
         points: 300,
         question: 'Which programming language do I want to learn after Java?',
-        imgSrc: '/programming_language.png',
+        imgSrc: '/c.png', // C hello world picture
         answer: 'c',
     },
     {
@@ -87,7 +89,7 @@ const futureQuestions: Question[] = sortQuestions([
         question:
             'What language do I want to learn after spanish?',
         imgSrc:
-            "https://laguidalpina.it/cdn/shop/products/ferrata-marmolada-cresta-ovest-Cristiano-Gregnanin-Guida-Alpina-Certificata-Dolomiti-5.jpg?v=1738870778",
+            "https://images.wsj.net/im-970824?width=1280&size=1", // france soccer team picture
         answer: 'French',
     }
 ]);
