@@ -52,7 +52,7 @@ const presentQuestions: Question[] =
             question: 'What is my favorite day of the week?',
             imgSrc: '/snl.png', // snl picture
             answer: 'Saturday', // self explanitory
-        {
+        },{
             points: 400,
             question:
                 'Who is this?',
