@@ -6,15 +6,15 @@ const sortQuestions = (questions: { points: number; question: string; answer: st
 const pastQuestions: Question[] = sortQuestions([
     {
         points: 100,
-        question: 'What month was I born in?',
+        question: 'What month is Earth day in',
         answer: 'April',
     },
     {
         points: 200,
         question:
-            'What instrument did I play as a kid?',
+            'Which composer composed fur elise?',
         imgSrc: "/beethoven.png", // beethoven picture
-        answer: 'piano',
+        answer: 'beethoven',
     },
     {
         points: 300,
@@ -25,9 +25,9 @@ const pastQuestions: Question[] = sortQuestions([
     },
     {
         points: 400,
-        question: 'Which state am I from?',
+        question: 'Which college has this as its mascot?',
         imgSrc: "https://stanforddaily.com/wp-content/uploads/2014/12/maryland-logo.jpg", // turtle picture
-        answer: 'Maryland',
+        answer: 'university of Maryland',
     }
 ]);
 
@@ -36,7 +36,7 @@ const presentQuestions: Question[] =
         {
             points: 100,
             question:
-                'What school sports team do I play on?',
+                'What is the most popular sport in the world?',
             imgSrc: '/soccerfield.png',
             answer: 'soccer',
         },
@@ -66,7 +66,7 @@ const futureQuestions: Question[] = sortQuestions([
     {
         points: 100,
         question:
-            'What year will I graduate?',
+            'When is the next leap year?',
         imgSrc:
             "https://t4.ftcdn.net/jpg/12/78/66/47/360_F_1278664775_tW7QUm1nWdWvo8aMpWFVCrzUj075ZUcI.jpg", // graduation hat picture
         answer: '2028',
@@ -74,23 +74,23 @@ const futureQuestions: Question[] = sortQuestions([
     {
         points: 200,
         question:
-            'What instrument will I play this year in band?',
+            'What musical instrument was sold in an auction for $144,500?',
         imgSrc: 'https://t3.ftcdn.net/jpg/00/87/58/44/360_F_87584445_ZmgbO9P17348IFEU5sorviDx5n4HmL1C.jpg', // band picture
         answer: 'saxophone',
     },
     {
         points: 300,
-        question: 'Which programming language do I want to learn after Java?',
+        question: 'Which programming language was developed by Dennis Ritchie in 1972?',
         imgSrc: '/c.png', // C hello world picture
         answer: 'c',
     },
     {
         points: 400,
         question:
-            'What language do I want to learn after spanish?',
+            'What is the most visited country in the world?',
         imgSrc:
             "https://images.wsj.net/im-970824?width=1280&size=1", // france soccer team picture
-        answer: 'French',
+        answer: 'France',
     }
 ]);
 
